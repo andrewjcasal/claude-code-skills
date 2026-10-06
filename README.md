@@ -1,6 +1,6 @@
 # Claude Code skills
 
-Skills and examples I use with Claude Code on my client work, trimmed so anyone can use them. Adjust the defaults to how you work.
+Skills and examples I use with Claude Code on my client work, trimmed so you can use them on your own projects. Adjust the defaults to how you work.
 
 ## Skills
 
