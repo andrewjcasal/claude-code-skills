@@ -1,17 +1,19 @@
-# Scoping skill for Claude Code
+# Claude Code skills
 
-A Claude Code skill that turns notes or a transcript from a client call into a milestone plan the client can agree to before any work starts: what each milestone delivers, what "done" means for it, the price, and that it's funded before it begins.
+Skills and examples I use with Claude Code on my client work, trimmed so anyone can use them. Adjust the defaults to how you work.
 
-It's a trimmed version of the one I use on my own client work. Adjust the defaults (the two week bug fix window, the revision rounds) to how you work.
+## Skills
+
+- **[scoping](scoping/SKILL.md):** turns notes or a transcript from a client call into a milestone plan the client can agree to before any work starts: what each milestone delivers, what "done" means for it, the price, and that it's funded before it begins.
 
 ## Install
 
-Copy the `scoping` folder into your skills folder:
+Copy a skill's folder into your skills folder:
 
-- For every project: `~/.claude/skills/scoping/SKILL.md`
-- For one project: `.claude/skills/scoping/SKILL.md` in that project
+- For every project: `~/.claude/skills/<skill>/SKILL.md`
+- For one project: `.claude/skills/<skill>/SKILL.md` in that project
 
-Then paste your call notes into Claude Code and ask it to "turn these call notes into a plan", or call it directly with `/scoping`.
+Then ask Claude Code for what the skill does (for scoping, "turn these call notes into a plan"), or call it directly with `/<skill>`.
 
 ## Questions
 
